@@ -45,4 +45,23 @@ fun main() {
         "also",
         "this as well"
     )
+
+    // Remove unused variable.
+    val asdf = 42
+}
+
+private class Asdf {
+
+    private val answer: Int
+
+    // Convert to primary constructor.
+    constructor(answer: Int = 42) {
+        this.answer = answer
+    }
+
+    // Convert method to property.
+    fun name() = "John Doe"
+
+    // Convert to simple property initializer.
+    val age get() = "75"
 }
