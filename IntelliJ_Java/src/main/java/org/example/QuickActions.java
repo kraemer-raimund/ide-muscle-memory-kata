@@ -14,6 +14,9 @@ public class QuickActions {
             // Flip the operands.
             // (Tip: Type "flip" while the list of context actions is open.)
             var flip = 42 + 1337;
+
+            // Flip the arguments.
+            var formatted = String.format("%s, %s", "second argument", "first argument");
         }
     }
 }
