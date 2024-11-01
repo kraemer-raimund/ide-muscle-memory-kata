@@ -3,7 +3,10 @@ OPTIONAL CHALLENGE: Keyboard only!
  */
 package org.example;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
 // Replace me with Javadoc.
 // To access the context actions, press "Alt + Enter" or "Option + Enter".
@@ -36,6 +39,33 @@ public class QuickActions {
 
             // Simplify the expression.
             var absolutelyTrue = true == true;
+
+            // Replace for loop with forEach method call.
+            var items123 = List.of(1, 2, 3);
+            for (var i : items123) {
+                System.out.println(i);
+            }
+
+            // Replace for loop with stream.
+            List<Integer> numbers = List.of(3, 6, 8, 9, 11, 14);
+            List<Integer> evenNumbers = new ArrayList<>();
+            for (Integer number : numbers) {
+                if (number % 2 == 0) {
+                    evenNumbers.add(number);
+                }
+            }
+
+            // Replace non-conditional StringBuilder with simple string expression.
+            // Discuss which version is more readable and why there's no difference
+            // in performance.
+            var couldSimplyBeJoined = new StringBuilder();
+            couldSimplyBeJoined.append("It is ");
+            couldSimplyBeJoined.append(LocalTime.now());
+            couldSimplyBeJoined.append(" o'clock. Today is ");
+            couldSimplyBeJoined.append(LocalDate.now().getDayOfWeek());
+            couldSimplyBeJoined.append(", ");
+            couldSimplyBeJoined.append(LocalDate.now());
+            System.out.println(couldSimplyBeJoined);
         }
     }
 }
