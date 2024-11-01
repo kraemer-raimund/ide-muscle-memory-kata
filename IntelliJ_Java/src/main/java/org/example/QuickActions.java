@@ -12,6 +12,12 @@ import java.util.List;
 // To access the context actions, press "Alt + Enter" or "Option + Enter".
 public class QuickActions {
 
+    // Remove unused variable.
+    int asdf = 42;
+
+    // Make immutable and initialize in constructor.
+    String name;
+
     // Replace me with a ...
     // ... block comment.
 
