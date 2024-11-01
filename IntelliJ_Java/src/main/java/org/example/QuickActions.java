@@ -26,6 +26,10 @@ public class QuickActions {
             } else {
                 System.out.println("Good morning!");
             }
+
+            // Add braces.
+            if ("answer".equals("42"))
+                System.out.println("obviously");
         }
     }
 }
