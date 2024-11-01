@@ -13,7 +13,4 @@ fun main() {
     val inlineMe = 1
     val three = inlineMe + 2
     println(three)
-
-    // Simplify constant expression.
-    val four = 2 + 2
 }

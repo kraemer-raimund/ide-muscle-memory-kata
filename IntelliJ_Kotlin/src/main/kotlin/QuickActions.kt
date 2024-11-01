@@ -13,6 +13,9 @@ fun main() {
         val formattedArguments = String.format("%s, %s", "second argument", "first argument")
         println(formattedArguments)
 
+        // Simplify constant expression.
+        val four = 2 + 2
+
         // Invert the if statement so that the positive condition comes first.
         if (1.toString() != "1") {
             println("Not equal!")
