@@ -32,6 +32,9 @@ public class QuickActions {
             // Flip the arguments.
             var formatted = String.format("%s, %s", "second argument", "first argument");
 
+            // Simplify constant expression.
+            var four = 2 + 2;
+
             // Invert the if statement so that the positive condition comes first.
             if (!LocalTime.now().isBefore(LocalTime.of(12, 0))) {
                 System.out.println("Good afternoon!");
