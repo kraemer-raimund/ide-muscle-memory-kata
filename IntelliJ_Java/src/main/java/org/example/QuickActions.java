@@ -33,6 +33,9 @@ public class QuickActions {
             // Add braces.
             if ("answer".equals("42"))
                 System.out.println("obviously");
+
+            // Simplify the expression.
+            var absolutelyTrue = true == true;
         }
     }
 }
