@@ -66,6 +66,16 @@ public class QuickActions {
             couldSimplyBeJoined.append(", ");
             couldSimplyBeJoined.append(LocalDate.now());
             System.out.println(couldSimplyBeJoined);
+
+            // Format with one argument per line.s
+            var longArguments = List.of("Some quite long string", "another decently long string", "and another one");
+
+            // Format on a single line.
+            var shortArguments = List.of(
+                    "Short",
+                    "also",
+                    "this as well"
+            );
         }
     }
 }
