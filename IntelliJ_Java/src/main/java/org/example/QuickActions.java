@@ -1,3 +1,6 @@
+/*
+OPTIONAL CHALLENGE: Keyboard only!
+ */
 package org.example;
 
 import java.time.LocalTime;
