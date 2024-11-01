@@ -1,5 +1,7 @@
 package org.example;
 
+import java.time.LocalTime;
+
 // Replace me with Javadoc.
 // To access the context actions, press "Alt + Enter" or "Option + Enter".
 public class QuickActions {
@@ -17,6 +19,13 @@ public class QuickActions {
 
             // Flip the arguments.
             var formatted = String.format("%s, %s", "second argument", "first argument");
+
+            // Invert the if statement so that the positive condition comes first.
+            if (!LocalTime.now().isBefore(LocalTime.of(12, 0))) {
+                System.out.println("Good afternoon!");
+            } else {
+                System.out.println("Good morning!");
+            }
         }
     }
 }
